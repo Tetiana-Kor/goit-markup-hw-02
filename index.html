@@ -3,143 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework1</title>
+    <title>Homework</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
-            <a href="./index.html">Web Studio</a>
+            <a href="./index.html" class="logo"><span class="logo-web">Web</span> Studio</a>
 
-            <ul>
-                 <li><a href="">Студия</a></li>
-                 <li><a href="">Портфолио</a></li>
-                 <li><a href="">Контакты</a></li>
+            <ul class="site-nav list">
+                 <li><a href="./index.html" class="link current">Студия</a></li>
+                 <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                 <li><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
 
-        <ul>
+        <ul class="contact-nav list">
             <li><img src="./image/mail.svg" alt="telephone">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
             <li><img src="./image/tel.svg" alt="mail">
-                <a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
 
-        <!-- <ul>
-            <a href=""><img src="./image/thumbup.svg" alt="thumbup"></a>
-            <a href=""><img src="./image/thumbup.svg" alt="thumbup"></a>
-        </ul> -->
     </header>
     
     <main>
         <!-- Hero -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="">Заказать услугу</a>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <a href="" class="button">Заказать услугу</a>
         </section>
 
         <!-- Advantages -->
-        <section>
-            <h2>Advantages</h2> 
+        <section class="advantages">
+            <h2 class="advantages-title">Advantages</h2> 
 
-            <ul>
+            <ul class="list">
                 <li><img src="./image/antenna1.svg" alt="antenna">
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="advantages-subtitle">Внимание к деталям</h3>
+                    <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
             </ul>
 
-            <ul>
+            <ul class="list">
                 <li><img src="./image/watch.svg" alt="watch">
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="advantages-subtitle">Пунктуальность</h3>
+                    <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
             </ul>
 
-            <ul>
+            <ul class="list">
                 <li><img src="./image/comp.svg" alt="computer">
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="advantages-subtitle">Планирование</h3>
+                    <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
             </ul>
 
-            <ul>
+            <ul class="list">
                 <li><img src="./image/cosmos.svg" alt="cosmonaut">
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="advantages-subtitle">Современные технологии</h3>
+                    <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
     
         <!-- Our service -->
-        <section>
-            <h2>Чем мы занимаемся?</h2>
+        <section class="service">
+            <h2 class="section-title">Чем мы занимаемся?</h2>
             
-            <ul>
-                <li><img src="./image/desk.svg" alt="desktop"><p>Десктопные приложения</p></li>
-                <li><img src="./image/mob.svg" alt="mobile"><p>Мобильные приложения</p></li>
-                <li><img src="./image/dis.svg" alt="designer"><p>Дизайнерские решения</p></li>
+            <ul class="service-item list">
+                <li><img src="./image/desk.svg" width="380" height="294" alt="desktop">
+                    <p class="text">Десктопные приложения</p></li>
+                <li><img src="./image/mob.svg" width="380" height="294" alt="mobile">
+                    <p class="text">Мобильные приложения</p></li>
+                <li><img src="./image/dis.svg" width="380" height="294" alt="designer">
+                    <p class="text">Дизайнерские решения</p></li>
             </ul>
         </section>
 
         <!-- Our team -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <section class="team">
+            <h2 class="team-title">Наша команда</h2>
+            <ul class="list">
                 <li>
-                    <img src="./image/1.jpg" alt="John Smith">
-                    <h3>John Smith</h3>
-                    <p>Product Designer</p>
-                    <ul>
-                        <li><img src="./image/Insta2.svg" alt="Instagram"></li>
-                        <li><img src="./image/TW.svg" alt="Twitter"></li>
-                        <li><img src="./image/Fb.svg" alt="Facebook"></li>
-                        <li><img src="./image/linkedin.svg" alt="Linkedin"></li>
+                    <img src="./image/1.jpg" width="278" height="260" alt="John Smith">
+                    <h3 class="team-subtitle">John Smith</h3>
+                    <p class="text">Product Designer</p>
+                    <ul class="team-item list">
+                        <li><a href=""><img src="./image/Insta2.svg" alt="Instagram"></a></li>
+                        <li><a href=""><img src="./image/TW.svg" alt="Twitter"></a></li>
+                        <li><a href=""><img src="./image/Fb.svg" alt="Facebook"></a></li>
+                        <li><a href=""><img src="./image/linkedin.svg" alt="Linkedin"></a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <img src="./image/2.jpg" alt="Marta Stewart">
-                    <h3>Marta Stewart</h3>
-                    <p>Frontend Developer</p>
-                    <ul>
-                        <li><img src="./image/Insta2.svg" alt="Instagram"></li>
-                        <li><img src="./image/TW.svg" alt="Twitter"></li>
-                        <li><img src="./image/Fb.svg" alt="Facebook"></li>
-                        <li><img src="./image/linkedin.svg" alt="Linkedin"></li>
+                    <img src="./image/2.jpg" width="278" height="260" alt="Marta Stewart">
+                    <h3 class="team-subtitle">Marta Stewart</h3>
+                    <p class="text">Frontend Developer</p>
+                    <ul class="list">
+                        <li><a href=""><img src="./image/Insta2.svg" alt="Instagram"></a></li>
+                        <li><a href=""><img src="./image/TW.svg" alt="Twitter"></a></li>
+                        <li><a href=""><img src="./image/Fb.svg" alt="Facebook"></a></li>
+                        <li><a href=""><img src="./image/linkedin.svg" alt="Linkedin"></a></li>
                     </ul>  
                 </li>
 
                 <li>
-                    <img src="./image/3.jpg" alt="Robert Jakis">
-                    <h3>Robert Jakis</h3>
-                    <p>Marketing</p>
-                    <ul>
-                        <li><img src="./image/Insta2.svg" alt="Instagram"></li>
-                        <li><img src="./image/TW.svg" alt="Twitter"></li>
-                        <li><img src="./image/Fb.svg" alt="Facebook"></li>
-                        <li><img src="./image/linkedin.svg" alt="Linkedin"></li>
+                    <img src="./image/3.jpg" width="278" height="260" alt="Robert Jakis">
+                    <h3 class="team-subtitle">Robert Jakis</h3>
+                    <p class="text">Marketing</p>
+                    <ul class="list">
+                        <li><a href=""><img src="./image/Insta2.svg" alt="Instagram"></a></li>
+                        <li><a href=""><img src="./image/TW.svg" alt="Twitter"></a></li>
+                        <li><a href=""><img src="./image/Fb.svg" alt="Facebook"></a></li>
+                        <li><a href=""><img src="./image/linkedin.svg" alt="Linkedin"></a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <img src="./image/4.jpg" alt="Martin Doe">
-                    <h3>Martin Doe</h3>
-                    <p>UI Designer</p>
-                    <ul>
-                        <li><img src="./image/Insta2.svg" alt="Instagram"></li>
-                        <li><img src="./image/TW.svg" alt="Twitter"></li>
-                        <li><img src="./image/Fb.svg" alt="Facebook"></li>
-                        <li><img src="./image/linkedin.svg" alt="Linkedin"></li>
+                    <img src="./image/4.jpg" width="278" height="260" alt="Martin Doe">
+                    <h3 class="team-subtitle">Martin Doe</h3>
+                    <p class="text">UI Designer</p>
+                    <ul class="list">
+                        <li><a href=""><img src="./image/Insta2.svg" alt="Instagram"></a></li>
+                        <li><a href=""><img src="./image/TW.svg" alt="Twitter"></a></li>
+                        <li><a href=""><img src="./image/Fb.svg" alt="Facebook"></a></li>
+                        <li><a href=""><img src="./image/linkedin.svg" alt="Linkedin"></a></li>
                     </ul>
                 </li>
             </ul>
         </section>
 
         <!-- Regular customers -->
-        <section>
-            <h2>Постоянные клиенты</h2>
-            <ul>
+        <section class="section">
+            <h2 class="section-title">Постоянные клиенты</h2>
+            <ul class="list">
                 <li><img src="./image/logo1.svg" alt="client1"></li>
                 <li><img src="./image/logo2.svg" alt="client2"></li>
                 <li><img src="./image/logo3.svg" alt="client3"></li>
@@ -151,21 +152,22 @@
     </main>
 
    <!-- Footer -->
-    <footer>
+    <footer class="footer">
+
         <!-- Address -->
         <div>
-            <a href="./index.html">Web Studio</a>
-            <address>
+            <a class="logo-footer" href="./index.html"><span class="logo-web">Web </span>Studio</a>
+            <address class="address">
                 г. Киев, пр-т Леси Украинки, 26 <br>
-                info@example.com <br>
-                +38 099 111 11 11
+                <div class="contacts"> info@example.com <br>
+                +38 099 111 11 11</div>
             </address>
         </div>
 
         <!-- Invitation -->
-        <div>
-            <b>Присоединяйтесь</b>
-            <ul>
+        <div >
+            <b class="invitation">Присоединяйтесь</b>
+            <ul class="list">
                 <li><a href="" aria-label="Instagram link">Instagram</a></li>
                 <li><a href="" aria-label="Twitter link">Twitter</a></li>
                 <li><a href="" aria-label="Facebook link">Facebook</a></li>
@@ -173,8 +175,13 @@
             </ul>
         </div>
 
+        <div>
+            <b class="invitation">Подпишитесь на рассылку</b>
+            <a href="" class="button">Подписаться</a>
+        </div>
+
         <!-- Sign -->
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="sign">2020 | Developed by GoIT Students</p>
 
     </footer>
 </body>
